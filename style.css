@@ -1,0 +1,35 @@
+body{
+    background-color: #FF4F5C;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+
+}
+/* formulaire */
+p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+input{
+    height: 30px;
+    border: none;
+}
+button{
+    height: 35px;
+    background-color: white;
+    border: none;
+}
+form{
+    background-color: white;
+}
+/* liste des taches */
+.listTasks{
+    margin-top: 10px;
+    background-color: white;
+    width: 250px;
+}
+
