@@ -18,7 +18,7 @@ function addTask() {
             //ajout du contenu du input a la task
              task.textContent=text
              //ajout de la task a list des task
-             listTasks.appendChild(div)
+             listTasks.appendChild(task)
              //ajout du trait en dessous de chaque task
              let hr = document.createElement('hr')
                 task.appendChild(hr)
